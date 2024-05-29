@@ -5,8 +5,8 @@ class Solution {
         int transposeMatrix[][] = new int[col][row];
         
        
-        for (int i = 0; i < row; ++i) {
-            for (int j = 0; j < col; ++j) {
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
                 transposeMatrix[j][i] = matrix[i][j];
             }
         }
